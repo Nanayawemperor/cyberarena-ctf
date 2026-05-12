@@ -73,8 +73,9 @@ npm start
 
 ## Team
 - David Whitten
-- ____________________
-- ____________________
+- Rommel Ariel Juarez
+- Jose Manuel Mendoza Torrico
+- Emmanuel okyere
 
 ## Course
 
