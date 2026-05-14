@@ -24,40 +24,42 @@ for top spots on the leaderboard.
 
 ## Technology Stack
 
-| Layer | Technology |
-|---|---|
-| Frontend | React |
-| Backend | Python / FastAPI |
-| Database | SQLite |
-| Authentication | JWT Tokens |
-| Version Control | GitHub |
+| Layer           | Technology       |
+| --------------- | ---------------- |
+| Frontend        | React            |
+| Backend         | Python / FastAPI |
+| Database        | SQLite           |
+| Authentication  | JWT Tokens       |
+| Version Control | GitHub           |
 
 ## Project Structure
 
 cyberarena-ctf/
-├── frontend/          ← React app
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── App.js
-│   └── package.json
-├── backend/           ← FastAPI app
-│   ├── main.py
-│   ├── models.py
-│   ├── database.py
-│   ├── routes/
-│   └── requirements.txt
+├── frontend/ ← React app
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ └── App.js
+│ └── package.json
+├── backend/ ← FastAPI app
+│ ├── main.py
+│ ├── models.py
+│ ├── database.py
+│ ├── routes/
+│ └── requirements.txt
 ├── README.md
 └── .gitignore
 
 ## Getting Started
 
 ### Prerequisites
+
 - Python 3.10+
 - Node.js 18+
 - Git
 
 ### Backend Setup
+
 ```bash
 cd backend
 pip install -r requirements.txt
@@ -65,6 +67,7 @@ uvicorn main:app --reload
 ```
 
 ### Frontend Setup
+
 ```bash
 cd frontend
 npm install
@@ -72,6 +75,7 @@ npm start
 ```
 
 ## Team
+
 - David Whitten
 - Rommel Ariel Juarez
 - Jose Manuel Mendoza Torrico
@@ -80,3 +84,7 @@ npm start
 ## Course
 
 CSE 499 — Senior Project
+
+## Favorite Quotes
+
+- **Jose Manuel Mendoza Torrico:** "The quieter you become, the more you are able to hear." — Kali Linux Proverb
