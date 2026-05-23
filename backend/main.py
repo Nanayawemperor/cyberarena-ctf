@@ -2,6 +2,8 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from routes import auth, challenges, users
+from routes import health
+
 
 # Initialize the FastAPI application
 app = FastAPI(
@@ -9,6 +11,10 @@ app = FastAPI(
     description="A Capture The Flag cybersecurity challenge platform",
     version="1.0.0"
 )
+
+
+
+app.include_router(health.router, prefix="/api", tags=["Health"])
 
 # CORS Middleware - allows React frontend to communicate with the backend
 app.add_middleware(
